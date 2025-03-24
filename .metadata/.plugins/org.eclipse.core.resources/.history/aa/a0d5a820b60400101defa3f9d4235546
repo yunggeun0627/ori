@@ -1,0 +1,14 @@
+package com.example.board.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+
+public class homeController {
+	
+	@GetMapping("/") // 현재경로로 접근
+	public String index() {
+		return "index";
+	}
+
+}
