@@ -11,7 +11,5 @@ public class homeController {
 	public String index() {
 		return "index";
 	}
-	public String a() {
-		return "";
-	}
+
 }
